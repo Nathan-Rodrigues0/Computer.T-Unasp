@@ -43,8 +43,11 @@ print("Obrigado por participar dessas perguntas!")
 nome = input("Qual é o seu nome?")
 salario = float(input("Qual é o seu sálario?"))
 cargo = input("Qual é o seu cargo? (junior/pleno/senior)").lower()
-percentual = {
-    "junior" = 0.10,
-    "pleno" = 0.15,
-    "senior" = 0.20
-} 
+
+percentuais = {
+    "junior": 0.10,
+    "pleno": 0.15,
+    "senior": 0.20
+}
+
+print(percentuais)
