@@ -1,8 +1,8 @@
 #atividade 1: fazer input que recebe o sálario + dependendo do cargo)junior/pleno/senior) + aumento percentual
-
+"""
 nome = input("Qual é o seu nome?")
 salario = float(input("Qual é o seu sálario?"))
-cargo = input("Qual é o seu cargo?")
+cargo = input("Qual é o seu cargo? (junior/pleno/senior)").lower()
 
 if cargo == "junior":
     #aumento de 10%
@@ -37,3 +37,14 @@ if filhos == "sim":
         print(f"{nome}. Seu sálario com bônus ao ter filhos é de R${salario_filho + 2000}")
 
 print("Obrigado por participar dessas perguntas!")
+"""
+#código limpo e resumido
+
+nome = input("Qual é o seu nome?")
+salario = float(input("Qual é o seu sálario?"))
+cargo = input("Qual é o seu cargo? (junior/pleno/senior)").lower()
+percentual = {
+    "junior" = 0.10,
+    "pleno" = 0.15,
+    "senior" = 0.20
+} 
