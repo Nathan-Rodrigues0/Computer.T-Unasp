@@ -42,7 +42,7 @@ print("Obrigado por participar dessas perguntas!")
 
 nome = input("Qual é o seu nome?")
 salario = float(input("Qual é o seu sálario?"))
-cargo = input("Qual é o seu cargo? (junior/pleno/senior)").lower()
+cargo = input("Qual é o seu cargo? (junior/pleno/senior):").lower()
 
 percentuais = {
     "junior": 0.10,
@@ -50,4 +50,19 @@ percentuais = {
     "senior": 0.20
 }
 
-print(percentuais)
+#condição para o cargo usando o array percentuais
+if cargo in percentuais:
+    aumento = salario * percentuais[cargo]#percentais e [cargos: dentro dos cargos escritos]
+    salario_final = salario + aumento
+    print(f"Olá {nome}. Seu sálario é R${salario_final:.2f} por ser {cargo.capitalize()}")
+else:
+    print("Cargo inválido! Digite novamente")
+
+#criando bônus para quem tem filhos
+filhos = input("Você tem filhos? (sim/não):").lower()
+
+if filhos == "sim":
+    quantidade = int(input("Quantos filhos você tem?"))
+    bonus = 500 * quantidade
+    salario_atualizado = salario_final + bonus
+    print(f"{nome}, esse é o teu salário atualizado por ter filhos: {salario_atualizado}")
