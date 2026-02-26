@@ -67,4 +67,4 @@ if filhos == "sim":
     salario_atualizado = salario_final + bonus
     print(f"{nome}, esse é o teu salário atualizado por ter filhos: R${salario_atualizado:.2f}")
 
-print(f"{nome}. Obrigado por participar desse questionário!")
+print(f"Obrigado por participar, {nome}.")
