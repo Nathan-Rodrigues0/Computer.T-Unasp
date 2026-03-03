@@ -1,9 +1,8 @@
 tabuada = int(input("Tabuada de qual número?"))
-multiplicando = 0
-print(f"{tabuada} X 0: 0")
+multiplicavel = 0
 
-while tabuada <= 9 and multiplicando <= 9:
-    tabuada 
-    multiplicando += 1
-    soma = tabuada * multiplicando
-    print(f"{tabuada} X {multiplicando}: {soma}")
+print(f"Tabuada do {tabuada}:")
+while multiplicavel <= 10:
+    resultado = tabuada * multiplicavel
+    print(f"{tabuada} X {multiplicavel} = {resultado}")
+    multiplicavel+=1
