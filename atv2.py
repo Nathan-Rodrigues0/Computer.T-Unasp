@@ -39,6 +39,8 @@ while not saída:
 """
 
 #código limpo e resumido
+
+#while (true) para manter o código em loop enquanto for verdade
 while True:
 
     nome = input("Qual é o seu nome?")
