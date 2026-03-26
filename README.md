@@ -2,4 +2,4 @@
 Is a repository for study
 ## studyng gits
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1280px-Python-logo-notext.svg.png)
+![](https://images.icon-icons.com/1508/PNG/512/python_104451.png)
