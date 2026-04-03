@@ -14,7 +14,7 @@ while True:
 
     produto = input("Qual produto deseja adicionar ao estoque?")
     valor_produto = int(input("Qual é o valor desse produto?"))
-    estoque[produto] = valor_produto
+    estoque[produto] = f"R$ {valor_produto:.2f}"
     print(estoque)
 
     saída = input("Quer adicionar mais produto?")
