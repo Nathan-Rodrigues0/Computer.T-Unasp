@@ -30,7 +30,7 @@ while loading: #barra aumentando verticaclmente
         print(chr(9608) + " " + str(loading) + "%")#strings são multiplicados
         loading+=1
         sleep(0.2)#
-        #os.system("cls")#metodo importado para codificar o terminal (cls) apagando o terminal a um determinado loop
+        os.system("cls")#metodo importado para codificar o terminal (cls) apagando o terminal a um determinado loop
         #horinzotalmente adiciona os.sytem 
     else:
         print("Salvamento concluído")
