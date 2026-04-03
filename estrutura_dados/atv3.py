@@ -6,3 +6,5 @@ while multiplicavel <= 10:
     resultado = tabuada * multiplicavel
     print(f"{tabuada} X {multiplicavel} = {resultado}")
     multiplicavel+=1#somando 1 sempre quen aparecer está variavel
+
+print(chr(12365))#código de icons
